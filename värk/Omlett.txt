@@ -1,0 +1,4 @@
+piim 0,5 l
+munad 2 tk
+
+head omletti!
