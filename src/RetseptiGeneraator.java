@@ -1,14 +1,7 @@
 
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -16,13 +9,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -97,7 +87,7 @@ public class RetseptiGeneraator extends Application {
 				ArrayList <Button> nupud = teeNupud(retseptivalikud);
 				
 				GridPane grid1 = new GridPane();
-				HBox hb1 = new HBox();
+//				HBox hb1 = new HBox();
 				Label lause = new Label("Siin on sinu valikud: ");
 				grid1.setPadding(new Insets(20, 20, 20, 20));
 				grid1.setMinSize(300, 300);
